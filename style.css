@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+.ph-1 {
+  max-height: 150px;
+}
+.list {
+  line-height: 30px;
+}
