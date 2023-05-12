@@ -57,3 +57,22 @@
   font-weight: bold;
   margin-bottom: 5px;
 }
+.reg {
+  margin: 6px;
+}
+.voity {
+  margin: 6px;
+}
+.card {
+  text-align: center;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  border: 1px solid red;
+  background-color: #ece8e8c2;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+.type-cysov {
+  display: flex;
+  justify-content: space-around;
+}

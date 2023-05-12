@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="card">
+      <h2>Пошук</h2>
+      <form action=" https://fom.in.ua/echo" method="post">
+        <label>Тип кузова:</label>
+        <div>
+          <div class="type-cysov">
+            <input type="checkbox" id="sedan" value="sedan" name="type-cysov" />
+            <label for="sedan">Седан</label>
+            <br />
+            <input type="checkbox" id="picap" value="picap" name="type-cysov" />
+            <label for="picap">Пікап</label>
+            <br />
+            <input type="checkbox" id="kype" value="kype" name="type-cysov" />
+            <label for="kype">Купе</label>
+            <input
+              type="checkbox"
+              id="hetchback"
+              value="hetchback"
+              name="type-cysov"
+            />
+            <label for="hetchback">Хетчбек</label>
+
+            <input
+              type="checkbox"
+              id="universal"
+              value="universal"
+              name="type-cysov"
+            />
+            <label for="universal">Універсал</label>
+          </div>
+          <div>
+            <label for="country">Країна виробник:</label>
+            <select id="country" name="country">
+              <option value="all">Всі</option>
+              <option value="usa">США</option>
+              <option value="germany">Німеччина</option>
+              <option value="france">Франція</option>
+              <option value="ukraine">Україна</option>
+              <option value="england">Англія</option>
+              <option value="japan">Японія</option>
+            </select>
+          </div>
+          <div>
+            <label for="marka">Марка Авто:</label>
+            <select id="marka" name="marka">
+              <option value="all">Всі</option>
+              <option value="usa">Mersedes</option>
+              <option value="germany">BMW</option>
+              <option value="france">Audi</option>
+              <option value="ukraine">Volvo</option>
+              <option value="england">Kia</option>
+              <option value="japan">Honda</option>
+            </select>
+          </div>
+          <div>
+            <label for="price-ot">Ціна від:</label>
+            <input
+              type="number"
+              id="price-ot"
+              placeholder="Введіть ціну"
+              name="price-ot"
+            />
+          </div>
+          <div>
+            <label for="price-do">Ціна до:</label>
+            <input
+              type="number"
+              id="price-do"
+              placeholder="Введіть ціну"
+              name="price-do"
+            />
+          </div>
+
+          <div>
+            <label for="year-ot">Рік випуску від:</label>
+            <input
+              type="number"
+              id="year-ot"
+              placeholder="Введіть рік"
+              name="year-ot"
+            />
+          </div>
+          <div>
+            <label for="year-do">Рік випуску до:</label>
+            <input
+              type="number"
+              id="year-do"
+              placeholder="Введіть рік"
+              name="year-do"
+            />
+          </div>
+          <label>Стан:</label>
+          <div class="type-cysov">
+            <input type="radio" id="bita" value="bita" name="stan" />
+            <label for="bita">Бита</label>
+            <br />
+            <input type="radio" id="credit" value="credit" name="stan" />
+            <label for="credit">У кредиті</label>
+            <br />
+            <input
+              type="radio"
+              id="neromitnena"
+              value="neromitnena"
+              name="stan"
+            />
+            <label for="neromitnena">Нерозмитнена</label>
+            <input type="radio" id="confiskat" value="confiskat" name="stan" />
+            <label for="confiskat">Конфіскат</label>
+          </div>
+        </div>
+        <div>
+          <label for="toplivo">Тип Палива:</label>
+          <select id="toplivo" name="toplivo">
+            <option value="all">Всі</option>
+            <option value="electro">Електро</option>
+            <option value="benzin">Бензин</option>
+            <option value="dizel">Дизель</option>
+            <option value="gaz">Газ</option>
+          </select>
+        </div>
+        <label>Тип Коробки Передач:</label>
+        <div class="type-cysov">
+          <input
+            type="checkbox"
+            id="mkpp"
+            value="mkpp"
+            name="type-corobka-peredach"
+          />
+          <label for="mkpp"> МКПП (механічна)</label>
+          <br />
+          <input
+            type="checkbox"
+            id="akpp"
+            value="akpp"
+            name="type-corobka-peredach"
+          />
+          <label for="akpp">АКПП (автоматична)</label>
+          <br />
+          <input
+            type="checkbox"
+            id="rkpp"
+            value="rkpp"
+            name="type-corobka-peredach"
+          />
+          <label for="rkpp"> РКПП (роботізирована)</label>
+        </div>
+        <div>
+          <label for="color">Колір:</label>
+          <input type="color" id="color" name="color" />
+        </div>
+        <div>
+          <label for="comfort">Комфорт:</label>
+          <select id="comfort" multiple name="comfort">
+            <option value="lyk">Люк</option>
+            <option value="salon">Шкіряний Салон</option>
+          </select>
+        </div>
+        <input type="submit" value="Пошук" class="poshyk" />
+      </form>
+      <a href="login.html" class="login">Login</a>
+    </div>
+  </body>
+</html>
