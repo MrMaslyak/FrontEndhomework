@@ -14,6 +14,9 @@
 .flex {
   display: flex;
 }
+.flex-1 {
+  display: flex;
+}
 .relative {
   position: relative;
 }
@@ -26,9 +29,70 @@
   justify-content: flex-end;
   margin: 50px auto;
 }
+.text-wrap-1 {
+  font-family: "Inter-Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+}
+.text-wrap-2 {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 8px;
+  padding-top: 30px;
+}
+.text-wrap-3 {
+  font-family: "Inter-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(60, 60, 67, 0.85);
+}
+.wrap1 {
+  margin-right: 30px;
+}
 .text-wrap {
-  max-width: 310px;
+  position: relative;
+  left: 18px;
+  z-index: 1;
+  max-width: 327px;
 }
 .wrap2 {
   max-width: 600px;
+  max-height: 357px;
+}
+.wrap-img-1 {
+  margin-right: 30px;
+}
+.Play {
+  position: absolute;
+  left: 28px;
+  bottom: 28px;
+  z-index: 1;
+}
+.Arrow {
+  background: #f3f5f6;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -40px;
+  left: 179px;
+  width: 112px;
+  height: 112px;
+}
+.Arrow-1 {
+  width: 32px;
+}
+.Arrow2 {
+  background: #f3f5f6;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: -39px;
+  right: 172px;
+  width: 112px;
+  height: 112px;
 }

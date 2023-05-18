@@ -1,4 +1,103 @@
 @media (max-width: 992px) {
+  .wrap2 img + img {
+    display: none;
+  }
+  .img-1 {
+    width: 273px;
+  }
+  .wrap-img-1 {
+    width: 208px;
+    height: 260px;
+  }
+  .text-wrap-1 {
+    width: 280px;
+    font-size: 24px;
+    padding-top: 48px;
+  }
+  .text-wrap {
+    left: 57px;
+  }
+  .text-wrap-2 {
+    font-size: 18px;
+    padding-top: 24px;
+    padding-bottom: 6px;
+  }
+  .text-wrap-3 {
+    font-size: 12px;
+  }
+  .Arrow {
+    bottom: 46px;
+    left: 16px;
+    width: 80px;
+    height: 80px;
+  }
+  .Arrow2 {
+    bottom: 46px;
+    right: 46px;
+    width: 80px;
+    height: 80px;
+  }
 }
 @media (max-width: 650px) {
+  .text-wrap {
+    color: #ffffff;
+    position: relative;
+    z-index: 1;
+    left: 201px;
+    top: 5px;
+  }
+  .wrap2 img + img {
+    display: initial;
+  }
+  .img-wrap {
+    flex-direction: column;
+    margin-right: 16px;
+  }
+  .wrap1 {
+    width: 342px;
+  }
+  .wrap2 {
+    padding-top: 10px;
+  }
+  .wrap-img-1 {
+    width: 166px;
+    height: 208px;
+    margin-right: 10px;
+  }
+  .wrap-img-2 {
+    width: 166px;
+    height: 208px;
+  }
+  .img-1 {
+    width: 342px;
+  }
+  .text-wrap-1 {
+    width: 190px;
+    font-size: 18px;
+  }
+  .text-wrap-3 {
+    color: #ffffff;
+  }
+  .Play {
+    left: 20px;
+    top: 353px;
+  }
+  .Arrow {
+    left: 118px;
+    bottom: -20px;
+    width: 48px;
+    height: 48px;
+  }
+  .Arrow-1 {
+    width: 24px;
+  }
+  .Arrow2 {
+    bottom: -20px;
+    right: 149px;
+    width: 48px;
+    height: 48px;
+  }
+  .Arrow-2 {
+    width: 24px;
+  }
 }
