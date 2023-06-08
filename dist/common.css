@@ -38,6 +38,7 @@ html {
 @media (max-width: 1100px) {
   .head {
     padding-left: 40px;
+    padding-right: 40px;
   }
 }
 @media (max-width: 400px) {
@@ -48,8 +49,8 @@ html {
 
 .first-sector {
   background: #eeeff1;
-  padding-top: 151px;
-  padding-bottom: 141px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .first-sector .dal {
   margin-bottom: 60px;
@@ -85,13 +86,20 @@ html {
     padding-right: 40px;
   }
 }
+@media (max-width: 400px) {
+  .first-sector {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 .two-sector {
   background: #ffffff;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .two-sector .About {
-  padding-top: 112px;
   margin-bottom: 50px;
   font-weight: 500;
   font-size: 32px;
@@ -100,7 +108,6 @@ html {
 }
 .two-sector .wrap-2 {
   margin: 0 auto;
-  padding-bottom: 100px;
   max-width: 540px;
   font-weight: inherit;
   font-size: inherit;
@@ -113,17 +120,23 @@ html {
     padding-right: 40px;
   }
 }
+@media (max-width: 400px) {
+  .two-sector {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 .three-sector {
   background: #34547a;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .three-sector .fx-card {
   display: flex;
   justify-content: space-between;
 }
 .three-sector .card {
-  padding-top: 100px;
-  padding-bottom: 100px;
   display: flex;
 }
 .three-sector .card .card-content {
@@ -146,15 +159,23 @@ html {
 @media (max-width: 992px) {
   .three-sector .fx-card {
     flex-wrap: wrap;
+    gap: 30px 10px;
+  }
+}
+@media (max-width: 992px) and (max-width: 400px) {
+  .three-sector {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
 .four-sector {
   background: #eeeff1;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .four-sector .main-text-0 {
-  padding-top: 100px;
   margin-bottom: 50px;
   font-weight: 500;
   font-size: 32px;
@@ -170,21 +191,25 @@ html {
   line-height: inherit;
   color: #727272;
 }
-.four-sector iframe {
-  padding-bottom: 100px;
-}
 @media (max-width: 1100px) {
   .four-sector {
     padding-left: 40px;
     padding-right: 40px;
   }
 }
+@media (max-width: 400px) {
+  .four-sector {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 
 .last-footer {
   background: #34547a;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 .last-footer .main-text-1 {
-  padding-top: 50px;
   margin-bottom: 20px;
   font-weight: 500;
   font-size: 21px;
@@ -192,7 +217,6 @@ html {
   color: #ffffff;
 }
 .last-footer .wrap-4 {
-  padding-bottom: 50px;
   font-weight: inherit;
   font-size: 13px;
   line-height: 21px;
@@ -201,6 +225,13 @@ html {
 @media (max-width: 1100px) {
   .last-footer {
     padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .last-footer {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 

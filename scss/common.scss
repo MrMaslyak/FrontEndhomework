@@ -19,6 +19,7 @@
   }
   @media (max-width: 1100px) {
     padding-left: 40px;
+    padding-right: 40px;
   }
   @media (max-width: 400px) {
     text-align: center;
@@ -26,8 +27,9 @@
 }
 .first-sector {
   background: #eeeff1;
-  padding-top: 151px;
-  padding-bottom: 141px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
   .dal {
     margin-bottom: 60px;
     @include fonts(500, 48px, 79px, inherit);
@@ -51,19 +53,24 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+
+  @media (max-width: 400px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 .two-sector {
   background: #ffffff;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   .About {
-    padding-top: 112px;
     margin-bottom: 50px;
     @include fonts(500, 32px, 38px, inherit);
   }
   .wrap-2 {
     margin: 0 auto;
-    padding-bottom: 100px;
     max-width: 540px;
     @include fonts(inherit, inherit, inherit, #727272);
   }
@@ -71,17 +78,21 @@
     padding-left: 40px;
     padding-right: 40px;
   }
+  @media (max-width: 400px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
 .three-sector {
   background: #34547a;
+  padding-top: 100px;
+  padding-bottom: 100px;
   .fx-card {
     display: flex;
     justify-content: space-between;
   }
   .card {
-    padding-top: 100px;
-    padding-bottom: 100px;
     display: flex;
     .card-content {
       padding-left: 20px;
@@ -98,14 +109,20 @@
   @media (max-width: 992px) {
     .fx-card {
       flex-wrap: wrap;
+      gap: 30px 10px;
+    }
+    @media (max-width: 400px) {
+      padding-left: 15px;
+      padding-right: 15px;
     }
   }
 }
 .four-sector {
   background: #eeeff1;
   text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
   .main-text-0 {
-    padding-top: 100px;
     margin-bottom: 50px;
     @include fonts(500, 32px, 38px, inherit);
   }
@@ -115,27 +132,34 @@
     margin-bottom: 57px;
     @include fonts(inherit, inherit, inherit, #727272);
   }
-  iframe {
-    padding-bottom: 100px;
+
+  @media (max-width: 1100px) {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @media (max-width: 400px) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.last-footer {
+  background: #34547a;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  .main-text-1 {
+    margin-bottom: 20px;
+    @include fonts(500, 21px, 25px, #ffffff);
+  }
+  .wrap-4 {
+    @include fonts(inherit, 13px, 21px, #ffffff);
   }
   @media (max-width: 1100px) {
     padding-left: 40px;
     padding-right: 40px;
   }
-}
-.last-footer {
-  background: #34547a;
-  .main-text-1 {
-    padding-top: 50px;
-    margin-bottom: 20px;
-    @include fonts(500, 21px, 25px, #ffffff);
-  }
-  .wrap-4 {
-    padding-bottom: 50px;
-    @include fonts(inherit, 13px, 21px, #ffffff);
-  }
-  @media (max-width: 1100px) {
-    padding-left: 40px;
+  @media (max-width: 400px) {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .aspect-video {
