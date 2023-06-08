@@ -18,10 +18,8 @@ html {
 }
 
 .head {
-  background: #eeeff1;
-}
-.head div {
   padding-top: 79px;
+  background: #eeeff1;
 }
 .head .homepage {
   font-weight: 500;
@@ -53,16 +51,16 @@ html {
   padding-top: 151px;
   padding-bottom: 141px;
 }
-.first-sector h1 {
-  padding-bottom: 60px;
+.first-sector .dal {
+  margin-bottom: 60px;
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
   color: inherit;
 }
-.first-sector p {
+.first-sector .wrap-1 {
   max-width: 540px;
-  padding-bottom: 65px;
+  margin-bottom: 65px;
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -84,6 +82,7 @@ html {
 @media (max-width: 1100px) {
   .first-sector {
     padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -91,15 +90,15 @@ html {
   background: #ffffff;
   text-align: center;
 }
-.two-sector h2 {
+.two-sector .About {
   padding-top: 112px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
   color: inherit;
 }
-.two-sector p {
+.two-sector .wrap-2 {
   margin: 0 auto;
   padding-bottom: 100px;
   max-width: 540px;
@@ -107,6 +106,12 @@ html {
   font-size: inherit;
   line-height: inherit;
   color: #727272;
+}
+@media (max-width: 1100px) {
+  .two-sector {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
 
 .three-sector {
@@ -124,14 +129,14 @@ html {
 .three-sector .card .card-content {
   padding-left: 20px;
 }
-.three-sector .card h3 {
+.three-sector .card .main-text {
   margin-top: 0;
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
   color: #ffffff;
 }
-.three-sector .card p {
+.three-sector .card .p2 {
   margin-bottom: 0;
   font-weight: inherit;
   font-size: 16px;
@@ -139,19 +144,8 @@ html {
   color: #ffffff;
 }
 @media (max-width: 992px) {
-  .three-sector .card-1 {
-    display: none;
-  }
   .three-sector .fx-card {
-    justify-content: space-around;
-  }
-}
-@media (max-width: 400px) {
-  .three-sector .card-2 {
-    display: none;
-  }
-  .three-sector .card {
-    padding-left: 40px;
+    flex-wrap: wrap;
   }
 }
 
@@ -159,18 +153,18 @@ html {
   background: #eeeff1;
   text-align: center;
 }
-.four-sector h2 {
+.four-sector .main-text-0 {
   padding-top: 100px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 500;
   font-size: 32px;
   line-height: 38px;
   color: inherit;
 }
-.four-sector p {
+.four-sector .wrap-3 {
   max-width: 540px;
   margin: 0 auto;
-  padding-bottom: 57px;
+  margin-bottom: 57px;
   font-weight: inherit;
   font-size: inherit;
   line-height: inherit;
@@ -180,38 +174,24 @@ html {
   padding-bottom: 100px;
 }
 @media (max-width: 1100px) {
-  .four-sector iframe {
-    padding: 40px;
-    width: 800px;
-  }
-}
-@media (max-width: 780px) {
-  .four-sector iframe {
-    padding: 40px;
-    width: 500px;
-    height: 500px;
-  }
-}
-@media (max-width: 515px) {
-  .four-sector iframe {
-    padding: 20px;
-    width: 300px;
-    height: 400px;
+  .four-sector {
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
 .last-footer {
   background: #34547a;
 }
-.last-footer h4 {
+.last-footer .main-text-1 {
   padding-top: 50px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
   color: #ffffff;
 }
-.last-footer p {
+.last-footer .wrap-4 {
   padding-bottom: 50px;
   font-weight: inherit;
   font-size: 13px;
@@ -222,4 +202,8 @@ html {
   .last-footer {
     padding-left: 40px;
   }
+}
+
+.aspect-video {
+  aspect-ratio: 16/9;
 }/*# sourceMappingURL=common.css.map */
