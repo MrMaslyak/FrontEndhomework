@@ -9,7 +9,21 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <section>
+        <form id="todoForm">
+          <label>
+            <span>ToDo:</span>
+            <input id="todoInput" type="text" placeholder="ToDo title" />
+          </label>
+          <button type="submit">Save</button>
+        </form>
+        <br />
+        <hr />
+        <ul id="todoList"></ul>
+        <p id="noTodosMessage" style="display: none">No todos yet.</p>
+      </section>
+    </main>
     <footer></footer>
     <script src="./js/index.js"></script>
   </body>
