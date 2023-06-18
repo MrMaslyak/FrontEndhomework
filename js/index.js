@@ -1,34 +1,3 @@
-// const todosList = [];
-// const todoForm = document.getElementById("todoForm");
-// const todoList = document.getElementById("todoList");
-
-// const renderList = () => {
-//   todoList.innerHTML = "";
-//   let content = "";
-//   todosList.map((todo) => {
-//     const ul = `<li id="${todo.id}">  <input type="checkbox"> ${todo.text}  <button>Del</button> </li>`;
-//     content += ul;
-//   });
-//   todoList.innerHTML = content;
-// };
-
-// todoForm.addEventListener("submit", (e) => {
-//   const field = document.getElementById("todoInput");
-//   e.preventDefault();
-
-//   const newTodo = {
-//     id: Date.now(),
-//     date: new Date(),
-//     text: field.value,
-//     status: false,
-//   };
-//   field.value = "";
-
-//   todosList.push(newTodo);
-
-//   renderList();
-// });
-
 const todosList = [];
 const todoForm = document.getElementById("todoForm");
 const todoList = document.getElementById("todoList");
