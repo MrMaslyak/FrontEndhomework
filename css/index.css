@@ -8,3 +8,9 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+.tab-pane {
+  display: none;
+}
+.tab-pane.active {
+  display: block;
+}
