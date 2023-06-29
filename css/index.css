@@ -2,9 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Graphik-Semibold';
 }
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1290px;
   margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  size: 15px;
+}
+.head{
+  margin-top: 10px;
+    border-bottom: 1px solid grey;
+}
+.button{
+  border: 1px solid black;
+  padding: 8px;
+  margin: 5px;
+}
+.button1{
+ 
 }
