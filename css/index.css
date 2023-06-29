@@ -2,7 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.html{
   font-family: 'Graphik-Semibold';
+font-size: 15px;
+/* font-weight: 400; */
+line-height: 20px;
 }
 .container {
   width: 100%;
@@ -15,15 +20,109 @@ a{
   color: black;
   size: 15px;
 }
+header{
+  border-bottom: 1px solid #CCCCCC;
+}
 .head{
-  margin-top: 10px;
-    border-bottom: 1px solid grey;
+ padding-bottom: 36px;
+margin-top: 39px;
+    display: flex;
+    align-items: center;
+}
+.links{
+  display: flex;
+  gap: 42px;
+  margin-left: 52px;
+}
+.buttons{
+  font-family: 'Graphik-Semibold';
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+
 }
 .button{
-  border: 1px solid black;
-  padding: 8px;
-  margin: 5px;
+  border: 1px solid  #00000080;
+  display: flex;
+justify-content: center;
+align-items: center;
+width: 120px;
+height: 45px;
 }
-.button1{
+.button2{
+ color: white;
+ background: #FF6336;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 120px;
+ height: 45px;
+}
+.FirstMain{
+  display: flex;
+  margin-top: 129px;
+  margin-bottom: 182px;
+}
+.title-0{
+  font-family: 'Graphik-Semibold';
+  max-width: 552px;
+font-size: 65px;
+font-weight: 600;
+line-height: 70px;
+}
+.title-1{
+  font-family: 'Graphik-Regular';
+  padding-top: 51px;
+  padding-bottom: 50px;
+  max-width: 471px;
+font-size: 25px;
+font-weight: 400;
+line-height: 35px;
+}
+.button3{
+  color: white;
+  background: #FF6336;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 160px;
+  height: 60px;
+}
+.button4{
+  border: 1px solid  #00000080;
+  display: flex;
+justify-content: center;
+align-items: center;
+width: 160px;
+height: 60x;
+}
+.title-2{
+  padding-top: 25px;
  
+  font-family: 'Graphik-Regular';
+font-size: 15px;
+line-height: 25px;
+}
+.TwoMain{
+  padding-top: 108px;
+  padding-bottom: 104px;
+  background: #FF9C7D;
+
+}
+.title-3{
+  max-width: 720px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 70px;
+}
+.logo{
+  display: flex;
+  gap: 103px;
 }
