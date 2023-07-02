@@ -9,7 +9,25 @@
   </head>
   <body>
     <header></header>
-    <main></main>
+    <main>
+      <form id="timerForm">
+        <label>
+          <span>Enter timer interval (in sec.)</span>
+          <input type="number" name="interval" id="interval" min="0" />
+        </label>
+        <br />
+        <button type="submit">Start!</button>
+      </form>
+      <br />
+      <p style="font-size: 2rem; font-weight: 700">
+        <span id="timerRestH" style="display: none">0 h.</span>
+        <span id="timerRestM" style="display: none">0 m.</span>
+        <span id="timerRestS">0 s.</span>
+      </p>
+      <br />
+      <button id="pauseButton" disabled>Pause</button>
+      <button id="resumeButton" disabled>Resume</button>
+    </main>
     <footer></footer>
     <script src="./js/index.js"></script>
   </body>
