@@ -5,6 +5,36 @@
 }
 .container {
   width: 100%;
-  max-width: 1440px;
+  max-width: 1150px;
   margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.Raleway {
+  font-family: "Raleway-Regular";
+}
+.Bitter {
+  font-family: "Bitter-Regular";
+}
+.head {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.Sing {
+  margin-left: auto;
+}
+.head > a {
+  color: #1d2f38;
+  font-size: 14px;
+  line-height: 20px;
+}
+.head-border {
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 3px 2px 3px rgba(0.1, 0.1, 0.1, 0.1);
 }
