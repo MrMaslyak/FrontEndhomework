@@ -39,5 +39,355 @@ a {
   box-shadow: 3px 2px 3px rgba(0.1, 0.1, 0.1, 0.1);
 }
 .pages {
+  margin-left: 30px;
+  margin-right: 50px;
+}
+.link-header {
+  margin-right: 30px;
+}
+.img-header {
+  margin-right: 0.5rem;
+}
+.First-Section {
+  display: flex;
+  background: #e3ebf1;
+  border-radius: 10px;
+  margin-top: 60px;
+  margin-bottom: 80.3px;
+}
+.First-img {
+  padding: 50px;
+}
+.First-title-1 {
+  padding-top: 64px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #10843f;
+}
+.First-title-2 {
+  font-size: 47px;
+  line-height: 52px;
+  max-width: 484px;
+  padding-top: 8px;
+  padding-bottom: 22.14px;
+}
+.First-title-3 {
+  font-size: 18px;
+  line-height: 24px;
+  max-width: 474px;
+  margin-bottom: 15px;
+}
+.First-link {
+  background: #17a550;
+  padding: 15px;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+}
+.Two-main-title {
+  margin-top: 77px;
+  padding-bottom: 33.3px;
+  font-size: 38px;
+  line-height: 40px;
+}
+.Two-title-1 {
+  padding-top: 9px;
+  padding-bottom: 13px;
+  font-size: 30px;
+  line-height: 35px;
+}
+.Two-title-2 {
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 74.3px;
+  max-width: 546px;
+}
+.First-title-card {
+  font-family: "Raleway";
+  font-size: 18px;
+  line-height: 25px;
+  color: #1d2f38;
+  display: flex;
+  align-items: center;
+}
+.width-card-1 {
+  max-width: 256px;
+}
+.width-card-2 {
+  max-width: 250px;
+}
+.width-card-3 {
+  max-width: 274px;
+}
+.Stolbs {
+  display: flex;
+  flex-wrap: wrap;
+  /* думал здесь прописать просто спэйс битвин, но тогда главный текст будет левее, а не как в макете. */
+}
+.First-Stolb {
+  margin-right: 40px;
+}
+.Two-Stolb {
+  display: flex;
+  flex-direction: column;
+}
+.Fist-card {
+  display: flex;
+  gap: 15px;
+}
+.Two-card {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  gap: 15px;
+}
+.Three-card {
+  display: flex;
+  gap: 15px;
+}
+/* Со столбиками был вариант сделать просто точка флекс и в нем прописать display flex и все, но решил уже так, и просто добавить этот класс везде */
+.player-title {
+  font-size: 16px;
+  line-height: 20px;
+  color: #1d2f38;
+  margin-left: 4px;
+}
+.player-section {
+  display: flex;
+  margin-bottom: 100px;
+}
+.bg {
+  background-image: url(../img/BG.svg);
+  margin-bottom: 100.3px;
+}
+.bg-title {
+  color: #1d2f38;
+  font-size: 28px;
+  line-height: 32px;
+  margin-left: 12px;
+}
+.link-bg {
+  background: #17a550;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+.main-bg {
+  display: flex;
+  align-items: center;
+  padding-top: 31px;
+  padding-bottom: 31px;
   padding-left: 30px;
+  padding-right: 40px;
+  /* Мне кажется можно было бы просто паддинг 30 пх, но я судил строго по макету */
+}
+.Text-Main-1 {
+  font-size: 38px;
+  line-height: 40px;
+  color: #1d2f38;
+  padding-bottom: 33.3px;
+}
+.cards {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+.card {
+  background: #f7f9fa;
+  position: relative;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.main-card {
+  padding-left: 25px;
+  padding-right: 32.66px;
+}
+.card-title-1 {
+  font-size: 30px;
+  line-height: 35px;
+  padding-top: 23.7px;
+  padding-bottom: 13px;
+}
+.card-title-2 {
+  font-size: 15px;
+  line-height: 20px;
+  color: #1d2f38;
+  max-width: 299px;
+  padding-bottom: 39.3px;
+}
+.card-link {
+  color: #ffffff;
+  background: #1d2f38cc;
+  padding: 10px;
+  z-index: 1;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 5px;
+}
+.bg-2 {
+  background-image: url(../img/BG-2.svg);
+  margin-bottom: 100px;
+}
+.TwoBg-main-text {
+  font-size: 30px;
+  line-height: 35px;
+  color: #1d2f38;
+  margin-left: 10px;
+}
+.bg-flex {
+  display: flex;
+}
+.img-bg {
+  padding: 50px;
+}
+.TwoBg-text {
+  font-size: 18px;
+  line-height: 24px;
+  color: #1d2f38;
+  max-width: 498px;
+  padding-bottom: 24px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  padding-top: 58px;
+  padding-bottom: 30px;
+}
+.email-search {
+  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #aabcc5;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #536d7a;
+}
+.link-bg-0 {
+  display: flex;
+  padding-top: 31px;
+  padding-bottom: 73px;
+}
+.link-bg-1 {
+  background: #ffc728;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 10px;
+  /* Впринципе можно было сделать просто паддинг 15рх, но я судил строго по макету */
+}
+.link-bg-2 {
+  color: #536d7a;
+  font-size: 12px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+.section-footer {
+  background: #f7f9fa;
+}
+.flex-1 {
+  display: flex;
+  padding-top: 11px;
+  padding-bottom: 19px;
+}
+.footer-title-1 {
+  max-width: 306px;
+  font-size: 16px;
+  line-height: 20px;
+}
+.cards-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 59px;
+  padding-top: 60px;
+}
+.footer-main-title-1 {
+  font-size: 30px;
+  line-height: 35px;
+  padding-bottom: 12px;
+  color: #333333;
+}
+.card-title-spawn {
+  font-size: 16px;
+  line-height: 18px;
+  color: #1d2f38;
+  display: flex;
+  align-items: center;
+}
+.card-width-title-1 {
+  max-width: 191px;
+}
+.card-footer {
+  display: flex;
+  gap: 9px;
+  padding-bottom: 20px;
+}
+.card-width-title-2 {
+  max-width: 171px;
+}
+.card-width-title-3 {
+  max-width: 180px;
+}
+.card-main-title {
+  font-size: 30px;
+  line-height: 35px;
+  color: #333333;
+  padding-bottom: 12px;
+}
+.email-search-1 {
+  padding: 15px;
+  width: 100%;
+  max-width: 274px;
+  border: #768f9c;
+  border-radius: 5px;
+}
+.email-button-search {
+  border: 1px solid #aabcc5;
+  border-radius: 5px;
+  display: flex;
+}
+.link-search {
+  color: #ffffff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #768f9c;
+  font-size: 12px;
+  line-height: 20px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.link-footer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7px;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1d2f38;
+  padding-top: 19px;
+}
+/* .link-footer > a {
+  padding-bottom: 7px;
+}Хотел сделать так,но тогда у последнего линка отступ */
+.link-down {
+  padding-bottom: 7px;
+}
+.poloska-1 {
+  display: flex;
+  height: 100%;
+  max-height: 1px;
+  border: 1px solid #536d7a;
+  align-items: stretch;
+  padding-top: 27px;
 }
