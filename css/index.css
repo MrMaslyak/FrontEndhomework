@@ -371,7 +371,6 @@ a {
 .link-footer {
   display: flex;
   flex-direction: column;
-  padding-bottom: 7px;
   font-size: 16px;
   line-height: 20px;
   color: #1d2f38;
@@ -383,11 +382,31 @@ a {
 .link-down {
   padding-bottom: 7px;
 }
+.link-down-1 {
+  padding-bottom: 27px;
+}
 .poloska-1 {
   display: flex;
-  height: 100%;
-  max-height: 1px;
-  border: 1px solid #536d7a;
+  padding: 0.5px;
+  background-color: #536d7a;
   align-items: stretch;
-  padding-top: 27px;
+}
+.card-title-4 {
+  padding-top: 20px;
+  color: #1d2f38;
+  font-size: 16px;
+  line-height: 20px;
+}
+.last-links {
+  display: flex;
+  padding-top: 22px;
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+.last-link-1 > a {
+  margin-right: 10px;
+}
+.last-link-2 {
+  margin-left: auto;
 }
