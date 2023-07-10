@@ -1,8 +1,70 @@
 @media (max-width: 1100px) {
-  * {
-    margin: 10px;
-  }
   .First-Section > img {
     display: none;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    padding: 15px;
+  }
+  .head {
+    flex-direction: column;
+  }
+  .First-title-2 {
+    font-size: 35px;
+  }
+  .Two-main-title {
+    margin: 0px;
+  }
+  .First-Section-Main {
+    padding: 10px;
+  }
+  .First-Stolb > img {
+    max-width: 250px;
+  }
+  .First-card {
+    max-width: 200px;
+  }
+  .player-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .main-bg {
+    flex-direction: column;
+  }
+  .link-bg {
+    margin-left: 0px;
+  }
+  .bg-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .bg {
+    margin-bottom: 30px;
+  }
+  .card > div > img {
+    max-width: 320px;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .bg-flex > img {
+    display: none;
+  }
+  .cards-footer {
+    flex-wrap: wrap;
+  }
+  .Sing {
+    margin-left: 0px;
+    padding-top: 10px;
+  }
+  .link-header {
+    margin-right: 0px;
+    padding-bottom: 10px;
+  }
+  .pages {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
   }
 }
