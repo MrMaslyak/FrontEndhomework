@@ -370,12 +370,7 @@ span {
   padding-top: 20px;
   padding-bottom: 14px;
 }
-.title-main-second {
-  font-family: "Graphik-Semibold";
-  font-size: 65px;
-  line-height: 75px;
-  margin-top: 165px;
-}
+
 .flex-main {
   display: flex;
   flex-direction: column;
@@ -388,6 +383,7 @@ span {
   font-size: 65px;
   line-height: 75px;
   max-width: 791px;
+  margin-top: 165px;
 }
 .link-111 {
   font-family: "Graphik-Semibold";
