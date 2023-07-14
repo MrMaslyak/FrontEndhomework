@@ -3,7 +3,23 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .cards-two {
+    justify-content: center;
+    margin-bottom: 80px;
+  }
 }
+@media (max-width: 1200px) {
+  .SixMain {
+    flex-wrap: wrap;
+  }
+  .MainImg {
+    padding-top: 50px;
+  }
+  .Second-card {
+    padding-top: 20px;
+  }
+}
+
 @media (max-width: 1160px) {
   .container {
     padding: 15px;
@@ -53,8 +69,8 @@
     width: 50px;
     height: 50px;
     position: absolute;
-    right: 0;
-    top: 0;
+    left: 142px;
+    top: 2px;
     cursor: pointer;
   }
   .burger span {
@@ -68,7 +84,7 @@
     transition: all 0.2s linear;
   }
   .burger span:first-child {
-    top: 5px;
+    top: 22px;
   }
   .burger span:last-child {
     top: 44px;
@@ -79,6 +95,11 @@
   }
   nav {
     display: none;
+    position: absolute;
+    top: 57px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
   }
   .burger.active span:first-child {
     top: -5px;
@@ -93,5 +114,14 @@
   }
   .burger.active span:nth-child(3) {
     transform: rotate(-45deg);
+  }
+  .head {
+    position: relative;
+  }
+  .burger.active + .links {
+    display: flex;
+  }
+  .links {
+    margin-left: 0px;
   }
 }
