@@ -98,11 +98,11 @@ class Teacher extends User {
   }
 }
 
-const student = new Student("Andrew", "Anton", 1990);
-student.present();
-student.setMark(5);
-student.setMark(2);
-student.absent();
+const student = new Student("Andrew", "Anton", 2000);
+student.present(0);
+student.setMark(8);
+student.setMark(7);
+student.absent(0);
 console.log(student.mediumMark);
 console.log(student.mediumVisit);
 console.log(student.summary);
