@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Inter";
+  src: url(./Inter-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "StyleScript";
+  src: url(./StyleScript-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "STSong";
+  src: url(./STSong.woff2) format("woff2");
+}
