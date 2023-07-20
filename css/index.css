@@ -275,7 +275,7 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  aspect-ratio: 1.1;
+  aspect-ratio: 1/1;
   flex: 1;
   display: flex;
   justify-content: center;
