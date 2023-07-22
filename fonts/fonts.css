@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(./Poppins-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Rubik";
+  src: url(./Rubik-Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url(./Roboto-Regular.woff2) format("woff2");
+}
+@font-face {
+  font-family: "DmSans";
+  src: url(./DMSans_18pt-Regular.woff2) format("woff2");
+}
