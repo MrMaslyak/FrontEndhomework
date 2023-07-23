@@ -26,13 +26,13 @@ a {
   font-family: "Roboto";
 }
 .bg-1 {
-  background: #eefaff4d;
+  background: #eefaff;
 }
 .header-first {
   padding-top: 24px;
   display: flex;
   justify-content: space-between;
-  padding-bottom: 254px;
+  padding-bottom: 130px;
 }
 .header-links {
   display: flex;
@@ -66,7 +66,8 @@ a {
 }
 .header-stolbs {
   display: flex;
-  justify-content: space-between;
+
+  align-items: center;
 }
 .header-main {
   font-size: 48px;
@@ -85,13 +86,10 @@ a {
 .avatar-1 {
   position: relative;
   z-index: 1;
-  width: 696px;
-  bottom: 77px;
 }
 .bg-avatar-1 {
-  position: relative;
-  bottom: 604px;
-  left: 110px;
+  position: absolute;
+  right: 73px;
 }
 .search-stroka {
   background: #ffffff;
@@ -139,4 +137,68 @@ a {
 }
 .header-main-1 {
   color: #40a3f8;
+}
+.bg-avatar {
+  position: relative;
+  right: 100px;
+  z-index: 2;
+}
+.icon {
+  padding-right: 8px;
+}
+.icon-png {
+  position: absolute;
+  z-index: 1;
+}
+.icon-png-1 {
+  position: relative;
+  top: 305px;
+  left: 161px;
+}
+.icon-png-2 {
+  position: relative;
+  top: 40px;
+  left: 100px;
+}
+.icon-png-3 {
+  position: relative;
+  top: 20px;
+  left: 403px;
+}
+.header-card-1 {
+  background: radial-gradient(
+    103.57% 103.57% at 50% 0%,
+    #fdfefe 0%,
+    #fdfefe 100%
+  );
+  border: 1px solid;
+  border-image-source: radial-gradient(
+    103.57% 103.57% at 50% 0%,
+    #fdfefe 0%,
+    #fdfefe 100%
+  );
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+  position: relative;
+  left: 669px;
+  top: 241px;
+  max-width: 162px;
+}
+.header-card-text-1 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #3d3d3f;
+}
+.header-card-text-2 {
+  font-size: 14px;
+  line-height: 21px;
+  color: #3d3d3f8f;
 }
