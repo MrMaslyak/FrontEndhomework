@@ -634,16 +634,16 @@ textarea {
 
 .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  background-color: #bbb;
+  width: 18px;
+  height: 18px;
+  background-color: #40a3f8;
   border-radius: 50%;
   margin: 0 4px;
   cursor: pointer;
 }
 
 .dot.active {
-  background-color: #717171;
+  background: #dbe8ee;
 }
 
 .cards-wrapper {

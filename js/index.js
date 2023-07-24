@@ -28,6 +28,7 @@ function showSlides(n) {
 
   let startIndex = slideIndex - 1;
   let endIndex = startIndex + 3;
+
   if (endIndex > cards.length) {
     endIndex = cards.length;
     startIndex = endIndex - 3;
