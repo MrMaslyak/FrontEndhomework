@@ -405,6 +405,17 @@ textarea {
   right: 0;
   bottom: 0;
 }
+.three-tochka-bg {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.four-tochka-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
 .pRelative {
   position: relative;
 }
