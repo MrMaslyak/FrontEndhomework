@@ -14,3 +14,7 @@
   font-family: "DmSans";
   src: url(./DMSans_18pt-Regular.woff2) format("woff2");
 }
+@font-face {
+  font-family: "SF-Pro-Display";
+  src: url(./SF-Pro-Display-Regular.woff) format("woff2");
+}
