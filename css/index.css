@@ -673,3 +673,122 @@ textarea {
   box-shadow: 0px 4px 120px 0px #0000000d;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.main-text-4 {
+  margin-top: 120px;
+  padding-bottom: 16px;
+  font-size: 42px;
+  line-height: 49px;
+  color: #3d3d3f;
+}
+.text-4 {
+  max-width: 497px;
+  color: #3d3d3fb2;
+  font-size: 18px;
+  line-height: 30px;
+  padding-top: 16px;
+  padding-bottom: 69px;
+}
+.cards-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 58px;
+}
+.card-2 {
+  border: 1px solid #eeeff1;
+  box-shadow: 0px 4px 120px 0px #0000000d;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.avatar-3 {
+  border-radius: 10px;
+  max-width: 241px;
+  max-height: 249px;
+}
+.main-text-card {
+  font-size: 18px;
+  line-height: 30px;
+  color: #3d3d3f;
+  padding-top: 18px;
+}
+.text-card-2 {
+  font-size: 14px;
+  line-height: 22px;
+  color: #999999;
+  padding-bottom: 17px;
+}
+.Fb {
+  margin-right: 12px;
+}
+.Tw {
+  padding-right: 12px;
+}
+.link-2 {
+  color: #ffffff;
+  box-shadow: 0px 4px 22px 0px #0000000d;
+  font-size: 18px;
+  line-height: 30px;
+  background: #40a3f8;
+  border-radius: 5px;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main-link-2 {
+  margin-bottom: 220px;
+  text-align: center;
+}
+.main-2 {
+  font-size: 42px;
+  line-height: 60px;
+  color: #3d3d3f;
+  max-width: 500px;
+  padding-bottom: 30px;
+}
+.text-5 {
+  color: #3d3d3fb2;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 496px;
+  padding-bottom: 30px;
+}
+.store-apps {
+  display: flex;
+  gap: 13px;
+}
+.cards-3 {
+  display: flex;
+  align-items: center;
+}
+.card-stolb {
+  position: absolute;
+  right: 150px;
+}
+.Mockup {
+  position: relative;
+  right: 150px;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* .App {
+  background: linear-gradient(0deg, #000000, #000000),
+    linear-gradient(0deg, #a6a6a6, #a6a6a6);
+  border: 1px solid #a6a6a6;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 8px;
+  padding-bottom: 7px;
+  border-radius: 8px;
+  display: flex;
+} */
+/* .img-app {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+} */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
