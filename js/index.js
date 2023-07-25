@@ -1,6 +1,11 @@
+$(".owl-carousel").owlCarousel({
+  lazyLoad: false,
+});
+
 $(document).ready(function () {
   $(".slider-with-tochka").owlCarousel({
     items: 3,
+    lazyLoad: false,
   });
 });
 document.addEventListener("DOMContentLoaded", function () {
