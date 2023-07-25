@@ -453,6 +453,12 @@ textarea {
   bottom: 0;
   z-index: -1;
 }
+.seven-tochka-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
 .pRelative {
   position: relative;
 }
@@ -1038,4 +1044,26 @@ textarea {
   text-align: center;
 }
 .poloska-footer {
+  display: flex;
+  flex: 1;
+  background: #969696;
+  text-align: center;
+  padding: 0.5px;
+}
+.main-8 {
+  font-size: 14px;
+  line-height: 14px;
+  color: #646464;
+}
+.footer-stolbs-2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  padding-bottom: 36px;
+}
+.footer-links {
+  margin-right: 54px;
+}
+.color-footer {
+  color: #646464;
 }
