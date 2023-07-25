@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel({
+  $(".slider-with-tochka").owlCarousel({
     items: 3,
   });
 });
@@ -19,9 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
     formContainer.classList.remove("active");
   });
 });
-$(".slider-with-arrows").owlCarousel({
-  items: 3,
-  dots: false,
-  nav: true,
-  navText: ['<img src="./img/arrow-1.png">, <img src="./img/arrow-2.png">'],
+$(document).ready(function () {
+  $(".slider-with-arrows").owlCarousel({
+    items: 3,
+    dots: false,
+    nav: true,
+    navText: ["<img src=./img/arrow-1.png>", "<img src=./img/arrow-2.png>"],
+  });
 });
