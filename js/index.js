@@ -1,44 +1,27 @@
-let slideIndex = 1;
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    items: 3,
+  });
+});
+document.addEventListener("DOMContentLoaded", function () {
+  var formContainer = document.getElementById("formContainer");
+  var getStartedLink = document.getElementById("getStartedLink");
+  var close = document.getElementById("close");
 
-showSlides(slideIndex);
+  getStartedLink.addEventListener("click", function (event) {
+    event.preventDefault();
+    formContainer.style.display = "flex";
+    formContainer.classList.add("active");
+  });
 
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
-
-function showSlides(n) {
-  let i;
-  const cards = document.getElementsByClassName("card-1");
-  const dots = document.getElementsByClassName("dot");
-
-  if (n > cards.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = cards.length;
-  }
-
-  for (i = 0; i < cards.length; i++) {
-    cards[i].style.display = "none";
-  }
-
-  for (i = 0; i < dots.length; i++) {
-    dots[i].classList.remove("active");
-  }
-
-  let startIndex = slideIndex - 1;
-  let endIndex = startIndex + 3;
-
-  if (endIndex > cards.length) {
-    endIndex = cards.length;
-    startIndex = endIndex - 3;
-  }
-
-  for (i = startIndex; i < endIndex; i++) {
-    cards[i].style.display = "block";
-  }
-
-  dots[startIndex].classList.add("active");
-  dots[startIndex + 1].classList.add("active");
-  dots[startIndex + 2].classList.add("active");
-}
+  close.addEventListener("click", function () {
+    formContainer.style.display = "none";
+    formContainer.classList.remove("active");
+  });
+});
+$(".slider-with-arrows").owlCarousel({
+  items: 3,
+  dots: false,
+  nav: true,
+  navText: ['<img src="./img/arrow-1.png">, <img src="./img/arrow-2.png">'],
+});

@@ -18,3 +18,7 @@
   font-family: "SF-Pro-Display";
   src: url(./SF-Pro-Display-Regular.woff) format("woff2");
 }
+@font-face {
+  font-family: "Ubuntu";
+  src: url(./Ubuntu-Regular.ttf) format("ttf");
+}
