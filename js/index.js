@@ -1,13 +1,3 @@
-$(".owl-carousel").owlCarousel({
-  lazyLoad: false,
-});
-
-$(document).ready(function () {
-  $(".slider-with-tochka").owlCarousel({
-    items: 3,
-    lazyLoad: false,
-  });
-});
 document.addEventListener("DOMContentLoaded", function () {
   var formContainer = document.getElementById("formContainer");
   var getStartedLink = document.getElementById("getStartedLink");
@@ -24,11 +14,15 @@ document.addEventListener("DOMContentLoaded", function () {
     formContainer.classList.remove("active");
   });
 });
+
 $(document).ready(function () {
   $(".slider-with-arrows").owlCarousel({
     items: 3,
     dots: false,
     nav: true,
     navText: ["<img src=./img/arrow-1.png>", "<img src=./img/arrow-2.png>"],
+  });
+  $(".slider-with-tochka").owlCarousel({
+    items: 3,
   });
 });
