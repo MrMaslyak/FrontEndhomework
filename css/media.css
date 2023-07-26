@@ -7,6 +7,12 @@
 
     padding-top: 40px;
   }
+  .six-tochka-bg {
+    display: none;
+  }
+  .three-tochka-bg {
+    display: none;
+  }
 }
 @media (max-width: 1250px) {
   .container {
@@ -129,10 +135,7 @@
     left: 365px;
   }
   .header-card-1 {
-    position: relative;
-    left: 616px;
-    top: 58px;
-    max-width: 162px;
+    left: 483px;
   }
   .header-card-2 {
     position: relative;
