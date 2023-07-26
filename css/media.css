@@ -29,6 +29,35 @@
   .owl-nav {
     display: block;
   }
+  .main-link-2 {
+    margin-bottom: 0px;
+  }
+  .owl-theme .owl-nav {
+    margin-top: 190px;
+  }
+  .owl-theme .owl-nav [class*="owl-"]:hover {
+    background: none;
+  }
+  .avatar-10 {
+    position: relative;
+    bottom: 0px;
+  }
+}
+@media (max-width: 1125px) {
+  .avatar-10 {
+    display: none;
+  }
+}
+@media (max-width: 1050px) {
+  .cards-3 {
+    flex-direction: column;
+  }
+  .Mockup {
+    position: inherit;
+  }
+  .card-stolb {
+    margin-left: 0px;
+  }
 }
 @media (max-width: 950px) {
   .first-cards {
@@ -50,6 +79,12 @@
   }
 }
 @media (max-width: 830px) {
+  .main-4 {
+    padding-left: 40px;
+  }
+  .card-2 {
+    margin-bottom: 20px;
+  }
   .burger {
     display: block;
     z-index: 3;
@@ -109,14 +144,21 @@
   .card-3 {
     margin-left: 87px;
   }
+  .main-text-5 {
+    font-size: 38px;
+  }
 }
 @media (max-width: 650px) {
   .card-3 {
-    margin-left: 87px;
+    margin-left: 26px;
   }
   .avatar-1 {
     left: 100px;
     max-width: 654px;
+  }
+  .cards-2 {
+    padding-left: 113px;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 600px) {
@@ -160,7 +202,23 @@
   .main-text-3 {
     font-size: 38px;
   }
+  .main-text-4 {
+    font-size: 38px;
+  }
+  .text-3 {
+    font-size: 16px;
+  }
+  .text-4 {
+    font-size: 16px;
+  }
+  .text-4 {
+    font-size: 16px;
+  }
   .main-3 {
+    font-size: 38px;
+    margin-top: 50px;
+  }
+  .main-2 {
     font-size: 38px;
   }
   .avatar-2-2 {
@@ -168,6 +226,12 @@
   }
 }
 @media (max-width: 500px) {
+  .Mockup {
+    max-width: 554px;
+  }
+  .main-text-5 {
+    font-size: 35px;
+  }
   .header-text {
     max-width: 380px;
   }
@@ -195,10 +259,16 @@
     left: 100px;
     max-width: 450px;
   }
+  .cards-2 {
+    padding-left: 79px;
+  }
 }
 @media (max-width: 420px) {
   .header-gl-link {
     margin-left: 0px;
+  }
+  .store-apps {
+    flex-direction: column;
   }
   .text {
     font-size: 14px;
@@ -208,12 +278,15 @@
   }
   .header-first {
     flex-wrap: wrap;
-    padding-bottom: 40px;
+    padding-bottom: 89px;
   }
   .header-main {
     font-size: 30px;
 
     line-height: 20px;
+  }
+  .main-text-5 {
+    font-size: 30px;
   }
   .header-main-1 {
     font-size: 30px;
@@ -224,7 +297,22 @@
   .main-text-3 {
     font-size: 30px;
   }
+  .main-text-4 {
+    font-size: 30px;
+  }
+  .main-2 {
+    font-size: 30px;
+  }
   .text-3 {
+    font-size: 14px;
+  }
+  .text-4 {
+    font-size: 14px;
+  }
+  .text-5 {
+    font-size: 14px;
+  }
+  .text-6 {
     font-size: 14px;
   }
   .header-text {
