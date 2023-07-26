@@ -59,7 +59,6 @@ a {
 }
 .header-stolbs {
   display: flex;
-
   align-items: center;
 }
 .header-main {
@@ -131,6 +130,9 @@ a {
 }
 .header-main-1 {
   color: #40a3f8;
+  font-family: "Poppins";
+  font-size: 48px;
+  line-height: 70px;
 }
 .bg-avatar {
   position: relative;
@@ -468,6 +470,7 @@ textarea {
   margin-top: 75px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card-on-img-1 {
   background: #ffffff;
@@ -1067,3 +1070,46 @@ textarea {
 .color-footer {
   color: #646464;
 }
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.burger {
+  display: none;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: 20px;
+  cursor: pointer;
+}
+.burger span {
+  display: block;
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 5px;
+  opacity: 1;
+  transition: all 0.2s linear;
+}
+.burger span:first-child {
+  top: 22px;
+}
+.burger span:last-child {
+  top: 44px;
+}
+.burger.active span:first-child {
+  top: -5px;
+  opacity: 0;
+}
+.burger.active span:nth-child(2) {
+  transform: rotate(45deg);
+}
+.burger.active span:nth-child(3) {
+  transform: rotate(-45deg);
+}
+.burger.active span:last-child {
+  top: 55px;
+  opacity: 0;
+}
+.burger.active span {
+  background-color: white;
+}
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

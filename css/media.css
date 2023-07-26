@@ -1,7 +1,255 @@
+@media (max-width: 1433px) {
+  .header-stolbs {
+    flex-wrap: wrap;
+  }
+  .bg-avatar {
+    right: 233px;
+
+    padding-top: 40px;
+  }
+}
 @media (max-width: 1250px) {
   .container {
     padding: 10px;
   }
+  .main-text-3 {
+    margin-top: 50px;
+  }
+  .card {
+    left: 75px;
+  }
+  .card-on-img-2 {
+    bottom: 96px;
+    left: 124px;
+  }
+  .owl-next {
+    position: absolute;
+    top: 19px;
+  }
+  .owl-nav {
+    display: block;
+  }
+}
+@media (max-width: 950px) {
+  .first-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .first-card-1 {
+    padding-top: 25px;
+  }
+  .card-on-img-1 {
+    display: none;
+  }
+  .card-on-img-2 {
+    bottom: 61px;
+    left: 121px;
+  }
+  .card-1 {
+    right: 50px;
+  }
 }
 @media (max-width: 830px) {
+  .burger {
+    display: block;
+    z-index: 3;
+  }
+  .links {
+    display: none;
+    margin-left: 0px;
+  }
+  .mobile-menu {
+    position: absolute;
+    inset: 0;
+    padding-top: 65px;
+    background-color: rgba(15, 15, 15, 0.9);
+    color: white;
+  }
+  .mobile-menu .nav-link {
+    display: block;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .avatar-2-2 {
+    max-width: 485px;
+  }
+  .main-card-2 {
+    line-height: 20px;
+  }
+  .icon-png-1 {
+    position: absolute;
+    top: 246px;
+    left: 227px;
+  }
+  .icon-png-2 {
+    position: absolute;
+    top: 45px;
+    left: 230px;
+  }
+  .icon-png-3 {
+    position: absolute;
+    top: -42px;
+    left: 365px;
+  }
+  .header-card-1 {
+    position: relative;
+    left: 616px;
+    top: 58px;
+    max-width: 162px;
+  }
+  .header-card-2 {
+    position: relative;
+    top: 270px;
+    left: 247px;
+  }
+}
+@media (max-width: 699px) {
+  .card-3 {
+    margin-left: 87px;
+  }
+}
+@media (max-width: 650px) {
+  .card-3 {
+    margin-left: 87px;
+  }
+  .avatar-1 {
+    left: 100px;
+    max-width: 654px;
+  }
+}
+@media (max-width: 600px) {
+  .header-main {
+    font-size: 40px;
+
+    line-height: 30px;
+  }
+  .header-main-1 {
+    font-size: 40px;
+  }
+  .card-1 {
+    right: 94px;
+  }
+  .main-text-2 {
+    font-size: 40px;
+  }
+  .icon-header {
+    display: none;
+  }
+  .submit-button {
+    max-width: 216px;
+    width: 100%;
+  }
+  .city-select {
+    max-width: 216px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .search-stroka {
+    flex-direction: column;
+  }
+  .search-stroka {
+    max-width: 270px;
+  }
+  .main-text-1 {
+    font-size: 35px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+  .main-text-3 {
+    font-size: 38px;
+  }
+  .main-3 {
+    font-size: 38px;
+  }
+  .avatar-2-2 {
+    max-width: 440px;
+  }
+}
+@media (max-width: 500px) {
+  .header-text {
+    max-width: 380px;
+  }
+  .card {
+    left: 12px;
+  }
+  .avatar-2-2 {
+    max-width: 400px;
+  }
+  .card-on-img-2 {
+    max-width: 210px;
+  }
+  .main-on-text {
+    font-size: 12px;
+  }
+  .love-on-card {
+    bottom: 161px;
+    left: 65px;
+  }
+  .card-on-img-2 {
+    bottom: 31px;
+    left: 89px;
+  }
+  .avatar-1 {
+    left: 100px;
+    max-width: 450px;
+  }
+}
+@media (max-width: 420px) {
+  .header-gl-link {
+    margin-left: 0px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .text-1 {
+    font-size: 14px;
+  }
+  .header-first {
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+  }
+  .header-main {
+    font-size: 30px;
+
+    line-height: 20px;
+  }
+  .header-main-1 {
+    font-size: 30px;
+  }
+  .main-text-2 {
+    font-size: 30px;
+  }
+  .main-text-3 {
+    font-size: 30px;
+  }
+  .text-3 {
+    font-size: 14px;
+  }
+  .header-text {
+    max-width: 285px;
+    padding-top: 0;
+  }
+  .card {
+    max-width: 344px;
+  }
+  .button {
+    margin-left: 37px;
+  }
+  .avatar-2-2 {
+    max-width: 308px;
+  }
+  .card-on-img-2 {
+    bottom: -28px;
+    left: 43px;
+  }
+  .card-1 {
+    right: 1px;
+  }
+}
+@media (max-width: 360px) {
+  .header-gl-link {
+    margin-top: 20px;
+  }
 }
