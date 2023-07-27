@@ -1,4 +1,4 @@
-@media (max-width: 1433px) {
+@media (max-width: 1440px) {
   .header-stolbs {
     flex-wrap: wrap;
   }
@@ -12,6 +12,9 @@
   }
   .three-tochka-bg {
     display: none;
+  }
+  .header-stolb-2 {
+    max-width: 100%;
   }
 }
 @media (max-width: 1250px) {
@@ -60,6 +63,7 @@
   }
   .Mockup {
     position: inherit;
+    max-width: 100%;
   }
   .card-stolb {
     margin-left: 0px;
@@ -94,6 +98,12 @@
   .burger {
     display: block;
     z-index: 3;
+  }
+  .header-card-1 {
+    display: none;
+  }
+  .header-card-2 {
+    display: none;
   }
   /* body {
     overflow: hidden;
@@ -233,7 +243,8 @@
 }
 @media (max-width: 500px) {
   .Mockup {
-    max-width: 554px;
+    /* max-width: 554px; */
+    max-width: 100%;
   }
   .main-text-5 {
     font-size: 35px;
@@ -245,7 +256,8 @@
     left: 12px;
   }
   .avatar-2-2 {
-    max-width: 400px;
+    /* max-width: 400px; */
+    max-width: 100%;
   }
   .card-on-img-2 {
     max-width: 210px;
@@ -263,16 +275,37 @@
   }
   .avatar-1 {
     left: 100px;
-    max-width: 450px;
+    /* max-width: 450px; */
+    max-width: 100%;
+    left: 134px;
   }
   .cards-2 {
     padding-left: 79px;
+  }
+  .icon-png-3 {
+    top: -24px;
+    left: 250px;
+    max-width: 70px;
+  }
+  .icon-png-2 {
+    top: 39px;
+    left: 419px;
+    max-width: 70px;
+  }
+  .icon-png-1 {
+    top: 122px;
+    left: 214px;
+    max-width: 70px;
   }
 }
 @media (max-width: 420px) {
   .header-gl-link {
     margin-left: 0px;
   }
+  .stolb-1 {
+    padding-right: 0px;
+  }
+
   .store-apps {
     flex-direction: column;
   }
@@ -345,5 +378,23 @@
 @media (max-width: 360px) {
   .header-gl-link {
     margin-top: 20px;
+  }
+  .cards-2 {
+    padding-left: 13px;
+  }
+  .icon-png-2 {
+    top: 38px;
+    left: 349px;
+    max-width: 45px;
+  }
+  .icon-png-3 {
+    top: -19px;
+    left: 233px;
+    max-width: 45px;
+  }
+  .icon-png-1 {
+    top: 58px;
+    left: 221px;
+    max-width: 45px;
   }
 }
