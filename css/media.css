@@ -297,6 +297,9 @@
     left: 214px;
     max-width: 70px;
   }
+  .card-1 {
+    right: 40px;
+  }
 }
 @media (max-width: 420px) {
   .header-gl-link {
