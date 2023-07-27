@@ -95,6 +95,9 @@
     display: block;
     z-index: 3;
   }
+  /* body {
+    overflow: hidden;
+  } */
   .links {
     display: none;
     margin-left: 0px;
