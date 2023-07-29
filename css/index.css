@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: red solid 1px; */
 }
 .container {
   width: 100%;
@@ -34,6 +35,7 @@ a {
 .bg-1 {
   background: #eefaff;
 }
+
 .header-first {
   padding-top: 24px;
   display: flex;
@@ -90,6 +92,7 @@ a {
   max-width: 566px;
   width: 566px;
   display: flex;
+  flex-direction: inherit;
 }
 .input-text {
   color: #0000004d;
@@ -267,7 +270,8 @@ a {
   width: 100%;
   background: #e2f9fe;
   position: absolute;
-  left: 250px;
+
+  z-index: 2;
 }
 
 form {
@@ -343,8 +347,8 @@ textarea {
   font-size: 42px;
   line-height: 70px;
   text-align: center;
-  padding-top: 75px;
-  padding-bottom: 50px;
+  margin-top: 75px;
+  margin-bottom: 50px;
 }
 .first-cards {
   display: flex;
@@ -634,7 +638,7 @@ textarea {
   font-size: 18px;
   line-height: 30px;
   color: #3d3d3fb2;
-  padding-bottom: 75px;
+  margin-bottom: 75px;
 }
 .main-1 {
   text-align: center;
@@ -710,6 +714,18 @@ textarea {
 }
 .owl-carousel .owl-item img {
   width: initial;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: #40a3f8;
+}
+
+.owl-carousel .owl-prev {
+  margin-right: 10px;
+}
+
+.owl-carousel .owl-next {
+  margin-left: 10px;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .main-text-4 {
@@ -816,26 +832,7 @@ textarea {
   position: relative;
   left: -150px;
 }
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/* .App {
-  background: linear-gradient(0deg, #000000, #000000),
-    linear-gradient(0deg, #a6a6a6, #a6a6a6);
-  border: 1px solid #a6a6a6;
-  padding-left: 11px;
-  padding-right: 11px;
-  padding-top: 8px;
-  padding-bottom: 7px;
-  border-radius: 8px;
-  display: flex;
-} */
-/* .img-app {
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-} */
 
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .main-3 {
   font-size: 42px;
   line-height: 49px;
@@ -850,7 +847,7 @@ textarea {
     rgba(255, 255, 255, 0.88) 0.65%,
     #fafafa 103.13%
   );
-  box-shadow: 0px 1px 0px 0px #0000000d;
+  box-shadow: 15px 2px 11px 1px #0000000d;
   padding-left: 30px;
   padding-top: 21px;
   padding-bottom: 32px;
@@ -897,7 +894,8 @@ textarea {
   position: absolute;
   width: 100%;
   height: 0px;
-  top: 50%;
+  top: 35%;
+
   display: flex;
   justify-content: space-between;
 }
@@ -1075,6 +1073,10 @@ textarea {
 .color-footer {
   color: #646464;
 }
+.last-footer {
+  background: #eefaff;
+}
+
 /* --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .burger {
   display: none;

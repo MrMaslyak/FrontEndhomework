@@ -54,7 +54,16 @@ $(document).ready(function () {
     },
   });
 });
-$(".burger").click(function (event) {
-  $(this).toggleClass("active");
-  $("nav").slideToggle();
+
+$(document).ready(function () {
+  $(".burger").click(function (event) {
+    event.preventDefault();
+    $(this).toggleClass("active");
+    $("nav").slideToggle();
+    if ($(this).hasClass("active")) {
+      $("body").css("overflow", "hidden");
+    } else {
+      $("body").css("overflow", "auto");
+    }
+  });
 });

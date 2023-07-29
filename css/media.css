@@ -1,10 +1,16 @@
-@media (max-width: 1440px) {
-  .header-stolbs {
-    flex-wrap: wrap;
+@media (max-width: 1600px) {
+  .header-stolb-2 {
+    max-width: 600px;
   }
+  .header-stolb-2 {
+    position: relative;
+    right: 51px;
+  }
+}
+@media (max-width: 1440px) {
   .bg-avatar {
     right: 233px;
-
+    max-width: 100%;
     padding-top: 40px;
   }
   .six-tochka-bg {
@@ -13,8 +19,19 @@
   .three-tochka-bg {
     display: none;
   }
-  .header-stolb-2 {
-    max-width: 100%;
+  .owl-carousel .owl-nav button.owl-next {
+    margin-right: 0px;
+  }
+}
+@media (max-width: 1300px) {
+  .owl-carousel .owl-nav button.owl-next {
+    margin-right: 19px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header-stolbs {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 1250px) {
@@ -50,6 +67,11 @@
   .avatar-10 {
     position: relative;
     bottom: 0px;
+  }
+}
+@media (max-width: 1190px) {
+  .header-stolbs {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 1125px) {
@@ -91,6 +113,15 @@
 @media (max-width: 830px) {
   .main-4 {
     padding-left: 40px;
+  }
+  .cards-5 {
+    margin-bottom: 0px;
+  }
+  .main-6 {
+    padding-top: 0px;
+  }
+  .cards-4 {
+    margin-bottom: 91px;
   }
   .card-2 {
     margin-bottom: 20px;
@@ -249,9 +280,7 @@
   .main-text-5 {
     font-size: 35px;
   }
-  .header-text {
-    max-width: 380px;
-  }
+
   .card {
     left: 12px;
   }
@@ -280,7 +309,7 @@
     left: 134px;
   }
   .cards-2 {
-    padding-left: 79px;
+    padding-left: 60px;
   }
   .icon-png-3 {
     top: -24px;
@@ -358,7 +387,6 @@
     font-size: 14px;
   }
   .header-text {
-    max-width: 285px;
     padding-top: 0;
   }
   .card {
